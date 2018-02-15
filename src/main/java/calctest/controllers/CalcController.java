@@ -57,12 +57,12 @@ public class CalcController {
 		else if (Objects.equals(op, "mult")) {
 			float result = a * b;
 			String t = String.format(
-					 template,
-					 Float.toString(a).replaceAll("\\.?0*$", ""),
-					 "*",
-					 Float.toString(b).replaceAll("\\.?0*$", ""),
-					 Float.toString(result).replaceAll("\\.?0*$", "")
-					 );
+                                     template,
+                                     Float.toString(a).replaceAll("\\.?0*$", ""),
+                                     "*",
+                                     Float.toString(b).replaceAll("\\.?0*$", ""),
+                                     Float.toString(result).replaceAll("\\.?0*$", "")
+                                     );
 			return t;
 			}
 		else {
